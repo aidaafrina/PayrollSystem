@@ -83,7 +83,7 @@ export default class App extends Component {
     var work = this.state.worked;
     var totalhours;
     HourDay[y]=work;
-    for(var x = 0; x < 3; x++){
+    for(var x = 0; x < 21; x++){
       totalhours = totalhours + HourDay[x];
       // console.log("Array Content",HourDay)
     }
